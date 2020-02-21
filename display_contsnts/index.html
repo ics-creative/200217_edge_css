@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      ul,
+      li,
+      a,
+      figure,
+      figcaption {
+        margin: 0;
+        padding: 0;
+      }
+
+      a {
+        font-family: sans-serif;
+        color: #333333;
+        text-decoration: none;
+      }
+
+      .container {
+        display: grid;
+        justify-content: center;
+        grid-template:
+          repeat(2, auto) /
+          repeat(3, minmax(auto, 500px));
+        gap: 10px 20px;
+        height: 100%;
+        grid-auto-flow: column;
+      }
+
+      a,
+      figure {
+        display: contents;
+      }
+
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="#">
+        <figure>
+          <figcaption>雪三桜</figcaption>
+          <img src="images/photo_1.jpg" alt="" />
+        </figure>
+      </a>
+      <a href="#">
+        <figure>
+          <figcaption>ゴードンの歩道橋</figcaption>
+          <img src="images/photo_2.jpg" alt="" />
+        </figure>
+      </a>
+      <a href="#">
+        <figure>
+          <figcaption>セントラルガーデン<br />※ 品川駅</figcaption>
+          <img src="images/photo_3.jpg" alt="" />
+        </figure>
+      </a>
+    </div>
+  </body>
+</html>
