@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>focus-within疑似クラスのサンプル</title>
+    <link rel="stylesheet" href="../common/reset.css" />
+    <link rel="stylesheet" href="base.css" />
+    <style>
+      /* チェックボックスにフォーカスがあたったとき、label全体にスタイルを付与する  */
+      label:focus-within {
+        border-radius: 16px;
+        box-shadow: 4px 4px 4px 0px #c2c9d6 inset,
+          -4px -4px 4px 0px #ffffff inset;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>好きな食べ物は？</h1>
+      <label><input type="radio" name="food" />🍎りんご</label>
+      <label><input type="radio" name="food" />🍇ぶどう</label>
+      <label><input type="radio" name="food" />🍊みかん</label>
+    </main>
+  </body>
+</html>
