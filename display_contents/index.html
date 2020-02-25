@@ -6,29 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>display: contents;のサンプル</title>
     <link rel="stylesheet" href="../common/reset.css" />
+    <link rel="stylesheet" href="base.css" />
     <style>
-      a {
-        font-family: sans-serif;
-        color: #333333;
-        text-decoration: none;
-      }
-
       .container {
         display: grid;
         justify-content: center;
         grid-template:
           repeat(2, auto) /
-          repeat(3, minmax(auto, 500px));
+          repeat(3, 1fr);
         gap: 10px 20px;
         grid-auto-flow: column;
       }
 
       a {
         display: contents;
-      }
-
-      img {
-        width: 100%;
       }
     </style>
   </head>
