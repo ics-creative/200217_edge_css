@@ -1,43 +1,124 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul {
+  list-style: none;
+}
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table th {
+  font-weight: normal;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+button {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
 html,
 body {
+  width: 100%;
   height: 100%;
 }
 
 body {
+  margin: 0;
+  font-family: "Open Sans", "Hiragino Sans", "ヒラギノ角ゴシック",
+    "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: #ffffff;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1,
+p,
+label,
+button,
+textarea,
+ul,
+li,
+hr {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #fff;
+}
+
+p {
+  line-height: 36px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+}
+
+body {
+  color: #333333;
+  background-color: rgba(59, 191, 61, 0.76);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e9efef;
+}
+
+main {
+  background-color: #f7f7f7;
+  width: 100%;
+  max-width: 640px;
+  min-height: 400px;
+  padding: 40px;
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
   font-size: 26px;
-  text-align: center;
-}
-
-main {
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 48px 64px;
-  border-radius: 16px;
-  background: #e9efef;
-  display: grid;
-  grid-auto-flow: row;
-  gap: 20px;
-  align-content: center;
-  font-size: 30px;
-  box-shadow: 4px 4px 4px 0px #c2c9d6, -4px -4px 4px 0px #ffffff;
 }
 
 label {
-  padding: 10px 20px 10px 40px;
-  position: relative;
+  padding: 5px;
+  display: block;
 }
 
 input {
-  position: absolute;
-  top: calc(50% - 5px);
-  left: 20px;
-  margin-right: 10px;
+  display: block;
+  margin: 20px 0 0 0;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #c1c1c1;
+  font-size: 18px;
 }

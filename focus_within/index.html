@@ -8,20 +8,26 @@
     <link rel="stylesheet" href="../common/reset.css" />
     <link rel="stylesheet" href="base.css" />
     <style>
+      label {
+        font-size: 20px;
+        transition: 0.3s ease;
+        background-color: transparent;
+      }
+
       /* チェックボックスにフォーカスがあたったとき、label全体にスタイルを付与する  */
       label:focus-within {
-        border-radius: 16px;
-        box-shadow: 4px 4px 4px 0px #c2c9d6 inset,
-          -4px -4px 4px 0px #ffffff inset;
+        background-color: rgba(59, 191, 61, 0.2);
       }
     </style>
   </head>
   <body>
     <main>
-      <h1>好きな食べ物は？</h1>
-      <label><input type="radio" name="food" />🍎りんご</label>
-      <label><input type="radio" name="food" />🍇ぶどう</label>
-      <label><input type="radio" name="food" />🍊みかん</label>
+      <h1>入力フォーム</h1>
+      <label>名前<input placeholder="田中 太郎" type="text"/></label>
+      <label>住所<input placeholder="東京都品川区" type="text"/></label>
+      <label
+        >メールアドレス<input placeholder="foo@bar.com" type="text"
+      /></label>
     </main>
   </body>
 </html>
