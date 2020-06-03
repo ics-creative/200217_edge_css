@@ -1,8 +1,14 @@
 
 .container, p {
   margin-top: 24px;
-  width: 960px;
+  width: 924px;
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
+}
+
+.container {
+  padding: 40px;
+  background-color: #91d985;
+
 }
