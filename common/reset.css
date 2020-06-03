@@ -18,6 +18,7 @@ html,
 body {
   background-color: #ffffff;
   height: 100%;
+  overflow: hidden;
 }
 
 body {

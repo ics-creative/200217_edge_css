@@ -1,36 +1,5 @@
 @charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
-}
 
-ul {
-  list-style: none;
-}
-
-table {
-  text-align: left;
-  border-collapse: collapse;
-}
-
-table th {
-  font-weight: normal;
-}
-
-h1,
-h2 {
-  font-weight: normal;
-}
-
-button {
-  display: block;
-}
-
-label {
-  display: block;
-}
 
 html,
 body {
@@ -44,48 +13,9 @@ body {
     "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Helvetica Neue",
     Helvetica, Arial, sans-serif;
   font-size: 22px;
-  color: #ffffff;
   overflow: hidden;
   padding: 10px;
   box-sizing: border-box;
-}
-
-h1 {
-  text-align: center;
-  font-size: 26px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-h1,
-p,
-label,
-button,
-textarea,
-ul,
-li,
-hr {
-  margin-bottom: 20px;
-}
-
-a {
-  color: #fff;
-}
-
-p {
-  line-height: 36px;
-}
-
-table {
-  margin-left: auto;
-  margin-right: auto;
-  height: 40px;
-}
-
-body {
   color: #333333;
   background-color: rgba(59, 191, 61, 0.76);
   display: flex;
@@ -93,12 +23,20 @@ body {
   align-items: center;
 }
 
+h1 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+
+
 main {
   background-color: #f7f7f7;
   width: 100%;
   max-width: 640px;
-  min-height: 400px;
-  padding: 40px;
+  padding: 30px;
   box-sizing: border-box;
   position: relative;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
@@ -109,8 +47,15 @@ h1 {
 }
 
 label {
-  padding: 5px;
   display: block;
+  font-size: 20px;
+  padding: 5px;
+}
+
+
+h1,
+label {
+  margin-bottom: 10px;
 }
 
 input {
