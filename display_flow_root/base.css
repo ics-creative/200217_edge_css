@@ -1,6 +1,6 @@
 
 .container, p {
-  margin-top: 24px;
+
   width: 924px;
   margin-right: auto;
   margin-left: auto;
@@ -10,5 +10,8 @@
 .container {
   padding: 40px;
   background-color: #91d985;
+}
 
+p {
+  margin-top: 24px;
 }
