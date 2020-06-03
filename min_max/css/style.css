@@ -1,0 +1,9 @@
+img {
+  width: min(700px, 100%);
+}
+
+
+a {
+  font-family: sans-serif;
+  color: #333333;
+}
