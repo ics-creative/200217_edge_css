@@ -1,0 +1,8 @@
+
+.container, p {
+  margin-top: 24px;
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
